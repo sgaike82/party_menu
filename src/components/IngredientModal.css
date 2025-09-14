@@ -1,0 +1,88 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-box {
+  background: #fff;
+  width: 400px;
+  max-width: 90%;
+  border-radius: 12px;
+  padding: 20px;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.dish-info {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  gap: 15px;
+}
+
+.dish-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.dish-name {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.dish-description {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.ingredients-section {
+  margin-top: 15px;
+}
+
+.for-people {
+  font-size: 0.85rem;
+  color: #777;
+  margin-bottom: 8px;
+}
+
+.ingredient-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ingredient-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 0.95rem;
+}
